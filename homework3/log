@@ -1,0 +1,3 @@
+Q.npy  : learning_rate=0.8, discount_rate=1.0,random_action_prob=0.5, random_action_decay_rate=0.9,iteration=100
+Q_1.npy: learning_rate=0.8, discount_rate=0.9,random_action_prob=0.5, random_action_decay_rate=0.99,iteraton=500
+Q_V2.npy: learning_rate=0.8, discount_rate=0.9,random_action_prob=0.5, random_action_decay_rate=0.95,iteraton=100

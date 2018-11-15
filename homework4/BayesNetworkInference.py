@@ -38,10 +38,10 @@ if __name__=='__main__':
     Network = riskFactorNetwork('RiskFactorsData.csv')
     print('the size of this network is ', Network.size())
     outcomes = ['diabetes', 'stroke', 'attack', 'angina']
-    print('If I have bad habits:\n')
+    print('\nIf I have bad habits:')
     for outcome in outcomes:
         print('The probabilities of the ', outcome, ' is\n' ,Network.infer(outcome, ['smoke', 'exercise'], [1,2]))
-    print('If I have good habits:\n')
+    print('\nIf I have good habits:')
     for outcome in outcomes:
         print('The probabilities of the ', outcome, ' is\n' ,Network.infer(outcome, ['smoke', 'exercise'], [2,1]))
     
